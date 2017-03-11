@@ -41,7 +41,8 @@ RUN apt-get update && apt-get install -y \
     libtbb-dev \
     libiberty-dev \
     wget \
-    unzip
+    unzip \
+    libtbb-dev
 
 ARG boost_version=1.59.0
 ARG boost_dir=boost_1_59_0
